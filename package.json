@@ -1,0 +1,25 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "Teste de api node",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucianoRK/node-template.git"
+  },
+  "author": "LucianoRK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucianoRK/node-template/issues"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
