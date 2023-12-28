@@ -21,6 +21,7 @@ class server {
 
     start() {
         this.server.listen(process.env.SERVER_PORT);
+        console.log(`Servidor iniciado na porta:${process.env.SERVER_PORT}`)
     }
 }
 
